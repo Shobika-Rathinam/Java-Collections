@@ -40,7 +40,17 @@ public class arrayList {
 		{
 			System.out.print(iter.next()+" " );
 		}
-		
+		ArrayList<Integer> n=new ArrayList<>();
+		n.add(90);
+		n.add(80);
+		n.add(70);
+		System.out.println(n);
+		ArrayList<Integer> j=new ArrayList<>();
+		j.add(6);
+		j.add(1);
+		System.out.println(j);
+		j.addAll(n);
+		System.out.println(j);
 	
 	}
 
