@@ -4,8 +4,7 @@ import java.util.Scanner;
 public class hashmap {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		
 		Scanner sc=new Scanner(System.in);
 		HashMap<Integer,String>h=new HashMap<>();
 		int n=sc.nextInt();
@@ -15,7 +14,14 @@ public class hashmap {
 		}
 		System.out.println(h);
 		System.out.println(h.get(3));
+		 h.remove(2);
+		 System.out.println(h.remove(1));
+		 System.out.println(h.size());
+		 System.out.println(h.containsKey(3));
 	}
+	// TODO Auto-generated method stub
+
+		
 	
 
 }
