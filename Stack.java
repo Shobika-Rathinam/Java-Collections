@@ -12,6 +12,14 @@ public class stack {
 		a.pop();
 		System.out.println(a);
 		System.out.println(a.peek());
+		if(a.isEmpty())
+		{
+			System.out.println("Empty....");
+		}
+		else
+		{
+			System.out.println("Not Empty");
+		}
 
 	}
 
