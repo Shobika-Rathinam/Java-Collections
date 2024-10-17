@@ -1,7 +1,7 @@
  package Collections;
 import java.util.LinkedHashSet;
 import java.util.Scanner;
-public class hashset {
+public class linkedhashset {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
